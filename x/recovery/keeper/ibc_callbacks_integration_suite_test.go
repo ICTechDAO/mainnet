@@ -15,13 +15,13 @@ import (
 	channeltypes "github.com/cosmos/ibc-go/v3/modules/core/04-channel/types"
 	ibcgotesting "github.com/cosmos/ibc-go/v3/testing"
 
-	ibctesting "github.com/gauss/gauss/v6/ibc/testing"
+	ibctesting "github.com/evmos/evmos/v7/ibc/testing"
 
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
-	"github.com/gauss/gauss/v6/app"
-	claimtypes "github.com/gauss/gauss/v6/x/claims/types"
-	inflationtypes "github.com/gauss/gauss/v6/x/inflation/types"
-	"github.com/gauss/gauss/v6/x/recovery/types"
+	"github.com/evmos/evmos/v7/app"
+	claimtypes "github.com/evmos/evmos/v7/x/claims/types"
+	inflationtypes "github.com/evmos/evmos/v7/x/inflation/types"
+	"github.com/evmos/evmos/v7/x/recovery/types"
 )
 
 type IBCTestingSuite struct {
