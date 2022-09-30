@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/evmos/ethermint/crypto/ethsecp256k1"
 	"github.com/evmos/ethermint/tests"
-	"github.com/evmos/evmos/v7/testutil"
+	"github.com/evmos/evmos/v8/testutil"
 	"github.com/stretchr/testify/mock"
 
 	transfertypes "github.com/cosmos/ibc-go/v3/modules/apps/transfer/types"
@@ -19,11 +19,11 @@ import (
 	ibcmock "github.com/cosmos/ibc-go/v3/testing/mock"
 	transfertypes "github.com/cosmos/ibc-go/v3/modules/apps/transfer/types"
 
-	claimstypes "github.com/evmos/evmos/v7/x/claims/types"
-	incentivestypes "github.com/evmos/evmos/v7/x/incentives/types"
-	"github.com/evmos/evmos/v7/x/recovery/keeper"
-	"github.com/evmos/evmos/v7/x/recovery/types"
-	vestingtypes "github.com/evmos/evmos/v7/x/vesting/types"
+	claimstypes "github.com/evmos/evmos/v8/x/claims/types"
+	incentivestypes "github.com/evmos/evmos/v8/x/incentives/types"
+	"github.com/evmos/evmos/v8/x/recovery/keeper"
+	"github.com/evmos/evmos/v8/x/recovery/types"
+	vestingtypes "github.com/evmos/evmos/v8/x/vesting/types"
 )
 
 func (suite *KeeperTestSuite) TestOnRecvPacket() {
