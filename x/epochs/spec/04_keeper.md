@@ -9,7 +9,16 @@ order: 4
 Epochs keeper module provides utility functions to manage epochs.
 
 ```go
-// Keeper is the interface for lockup module keeper
+// Keeper of epoch nodule maintains collections of epochs and hooks.
+type Keeper struct {
+	cdc      codec.Codec
+	storeKey storetypes.StoreKey
+	hooks    types.EpochHooks
+}
+```
+
+```go
+// Keeper is the interface for epoch module keeper
 type Keeper interface {
   // GetEpochInfo returns epoch info by identifier
   GetEpochInfo(ctx sdk.Context, identifier string) types.EpochInfo
