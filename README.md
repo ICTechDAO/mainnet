@@ -27,11 +27,11 @@ mkdir -p /data/chain/icplaza/bin
 ```
 3. Download the icplaza executable file:
 ```bash
-wget https://github.com/ICPLAZA-org/icplaza/releases/download/v6.0.2/icplazad
+wget https://github.com/IcplazaDAO/mainnet/releases/download/v0.1.1/icplazad
 ```
 4. Go to the /data/chain/icplaza directory and execute the initialization command:
 ```bash
-bin/icplazad --home data init icplaza --chain-id=icplaza_9000-1
+bin/icplazad --home data init icplaza --chain-id=icplaza_13141619-1
 ```
 5. Download the mainnet configuration file:
 
