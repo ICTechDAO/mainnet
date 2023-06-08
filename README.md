@@ -39,7 +39,7 @@ bin/icplazad --home data init icplaza --chain-id=icplaza_13141619-1
 
 (2) Download the mainnet configuration file and save it to /data/chain/icplaza/data/config/
 ```bash
-wget https://github.com/ICPLAZA-org/mainnet/raw/main/config.tar.gz
+wget https://github.com/IcplazaDAO/mainnet/raw/main/config.zip
 ```
 6. Download the block data image to the /data/chain/icplaza/data/ directory
 ```bash
